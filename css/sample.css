@@ -1,0 +1,83 @@
+body {
+    font-size: 32px;
+}
+
+header {
+    background-color: #fff;
+    /* border-bottom: 1px solid #ccc; */
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+p {
+    font-size: 200%;
+    text-align: center;
+    height: 200px;
+}
+
+
+.table h2,
+#pc_hands h2 {
+    display: inline-block;
+    vertical-align: text-bottom;
+    text-align: center;
+}
+
+.table img {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    /* 子要素を均等に配置します */
+    align-items: center;
+    /* 子要素を縦方向の中心に揃えます */
+    align-self: middle;
+    height: 200px;
+    width: 200px;
+    /* ボックスの横幅を指定する */
+    height: 200px;
+    /* ボックスの高さを指定する */
+    background: #ffffff;
+    /* ボックスの背景色を指定する */
+    border: 5px solid #AAAAAA;
+    /* 境界線を実線で太めに指定する */
+    box-shadow: 0 10px 10px #666666;
+    /* 影（[右][下][ぼかし][影の色]）を指定する */
+}
+
+#pc_hands img {
+    height: 200px;
+    width: 200px;
+
+}
+
+#pc_hands img,
+#pc_hands h2 {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    align-self: middle;
+    margin: auto;
+}
+
+.table img:active {
+    transform: translateY(10px);
+}
+
+.table,
+#pc_hands,
+#judgement {
+    text-align: center;
+}
+
+#judgement img,
+#judgement h2 {
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
